@@ -6,7 +6,7 @@ as well as modeling data using linear regression.
 
 ## Topic and Task
 
-You will use the [King County Housing Data](kc_housing_prices):
+You will use the [King County Housing Data](data):
 This dataset contains information about home sales in King County (USA). 
 
 Your task will be to perform an extensive EDA and to train a explanatory linear regression model. The task is not only to explain the data but also to evaluate how well the model is fitting the data.
