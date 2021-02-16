@@ -1,7 +1,7 @@
 # First Project - Data Analysis
 
 This project is centered around exploratory data 
-analysis [(EDA)](EDA_Checklist.pdf) techniques and statistical analysis, 
+analysis [(EDA)](https://github.com/neuefische/datascience-infographics/blob/main/EDA_Checklist.md) techniques and statistical analysis, 
 as well as modeling data using linear regression.
 
 ## Topic and Task
