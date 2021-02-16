@@ -17,8 +17,18 @@ Note, you can take either the perspective of a buyer or a seller. Choose a stake
 If you use linear regression in the exploration phase remember that R2 close to 1 is good.
 
 3. Then, model this dataset with a linear regression to explain the data but also to evaluate how well the model is fitting the data. We do expect **residuals** plotted for the model.
+
+## Suggested workflow - POC
+The work is timeboxed, and with that in mind, you need to change how you approach the task. You will want to employ an iterative approach. 
+
+* write rough draft of plan with placeholders
+* do simple plots
+* main questions should already be answered -> POC (proof of concept) 
+* iterate: go deeper, go prettier, go better
+* clean up .. feel free to delete things that are not useful anymore
  
 ## The Deliverables
+0. New repository from [template](https://github.com/neuefische/ds-eda-project-template)
 1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant!
 2. A Python script for training the model, printing out the model statistics and saving the model. Look at this [stackoverflow discussion](https://stackoverflow.com/questions/16420407/python-statsmodels-ols-how-to-save-learned-model-to-file) on how to save a statsmodel.
 3. An **organized README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
