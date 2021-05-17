@@ -1,24 +1,42 @@
 # First Project - Data Analysis
 
 This project is centered around exploratory data 
-analysis [(EDA)](https://github.com/neuefische/datascience-infographics/blob/main/EDA_Checklist.md) techniques and statistical analysis, 
-as well as modeling data using linear regression.
+analysis [(EDA)](Terezas_EDA_Checklist.pdf) techniques and statistical analysis, 
+as well as simulation.
 
 ## Topic and Task
 
-You will use the [King County Housing Data](data):
-This dataset contains information about home sales in King County (USA). 
+You will use the Muesli data you have already worked with in the first week of our course.
 
-Your task will be to perform an extensive EDA and to train a explanatory linear regression model. The task is not only to explain the data but also to evaluate how well the model is fitting the data.
-For a more detailed task description have a look at the [assignment](Assignment.md).
+Your task will be to perform an EDA on the data as well as to build a simulation model to answer specific questions of our stakeholder. 
+You can find the detailed task description [here](Assignment.pdf).
 
 ## Getting Started
 
-Please create a new repository (if you like you can use this [neuefische Repo template](https://github.com/neuefische/ds-eda-project-template). If you create a new repo you can do it with a `Repository template` choose here `ds-project-template`) for this project. Make sure you also create and activate a new virtual environment inside your project repo.
-In this environment you can install all the packages you will use during your project using pip. 
+- Please create a new repository on GitHub. 
+- Create a new virtual environment using:  
 
-```BASH
-pyenv local 3.8.5
-python -m venv .venv
-source .venv/bin/activate
+```BASH 
+# Create new environment
+$ conda create --name <env_name>
+# Activate environment 
+$ conda activate <env_name>
+# Installing packages 
+$ conda install <package_name>
 ```
+- Activate your environment 
+- Also after having created this environment, you can install additional packages within it. **Therefore you need to have activated your environment**!
+- Start jupyter lab and start with your EDA!
+
+## Suggested workflow - POC
+The work is timeboxed, and with that in mind, you need to change how you approach the task. You will want to employ an iterative approach. 
+
+* Write rough draft of plan with placeholders
+* Do simple plots
+* Main questions should already be answered -> POC (proof of concept) 
+* Iterate: go deeper, go prettier, go better
+* Clean up .. feel free to delete things that are not useful anymore
+ 
+
+**Have fun and do not stress yourself too much!!!**
+
