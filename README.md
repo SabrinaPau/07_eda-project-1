@@ -1,4 +1,4 @@
-# First Project - Data Analysis
+# Project - Data Analysis
 
 This project is centered around exploratory data 
 analysis [(EDA)](Terezas_EDA_Checklist.pdf) techniques and statistical analysis, 
