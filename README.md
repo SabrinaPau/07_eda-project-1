@@ -24,7 +24,7 @@ $ conda install <package_name>
 ```
 - Activate your environment 
 - Also after having created this environment, you can install additional packages within it. **Therefore you need to have activated your environment**!
-- Start jupyter lab and start with your EDA!
+- Start VS Code and start with your EDA!
 
 ## Suggested workflow - POC
 The work is timeboxed, and with that in mind, you need to change how you approach the task. You will want to employ an iterative approach. 
