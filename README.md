@@ -6,9 +6,7 @@ as well as simulation.
 
 ## Topic and Task
 
-You will use the Muesli data you have already worked with in the first week of our course.
-
-Your task will be to perform an EDA on the data as well as to build a simulation model to answer specific questions of our stakeholder. 
+Your task will be to complete a case study to answer specific questions of our stakeholder by performing data analysis and visualisation. 
 You can find the detailed task description [here](Assignment.pdf).
 
 ## Getting Started
