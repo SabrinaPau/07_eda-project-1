@@ -1,8 +1,7 @@
 # Project - Data Analysis
 
 This project is centered around exploratory data 
-analysis [(EDA)](Terezas_EDA_Checklist.pdf) techniques and statistical analysis, 
-as well as simulation.
+analysis [(EDA)](Terezas_EDA_Checklist.pdf) techniques and statistical analysis.
 
 ## Topic and Task
 
