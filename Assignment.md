@@ -25,7 +25,7 @@ The logistics company has said they have on average 3 day delivery times to all 
 #### Understand Business Problem and Potential Solution
 1. Map out the order process in a flow chart.
 2. Invent some KPIs that would be useful for tracking the performance processes overall and at each stage.
-3. Label the flowchart with any logic that takes place that could affect how orders move through the stages. Includes notes about assumptions the company and suppliers make about the processing time for each stage.  
+3. Label the flowchart with any logic that takes place that could affect how orders move through the stages. Include notes about assumptions the company and suppliers make about the processing time for each stage.  
 #### Explore Data
 4. Load the provided data into pandas and perform simple EDA to describe what data exists including descriptive statistics, identify missing values and any outliers.
 5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and the capture any logic needed to handle weekends or processing modes etc. Either create one big dataframe with everything or a dataframe for each element, either way by joining the provided tables.
