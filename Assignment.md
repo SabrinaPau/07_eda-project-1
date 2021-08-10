@@ -37,13 +37,13 @@ The logistics company has said they have on average 3 day delivery times to all 
 9. Present your *clean* notebook and method to the class.
   
 #### EXTRA CREDIT  
-Based on the data provided could the company offer a commitment to their customers about the expected delivery date based on the order date? If possible, find the 95th Percentile of deliveries?
-Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available.
-The company would like to reduce the lead time, but don’t know the best way. The logistics provider has said that they are able to offer daily pick up (Monday to Friday) for an additional cost. Alternatively the warehouse could hire more people in order to be able to handle all shipments as ‘Express’. Assuming the costs are equivalent, use the simulation model to determine which option would lead to better improvement in the 95% delivery promise.
+1. The company would like to know how long the an order would take to be delivered to the customer depending on what day it is received. They would like to know the average as well as 95th percentile of deliveries (i.e. the number of days under which 95% of orders will be delivered). Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available in order to create a set of simulated orders that can be measured to show the distribution of delivery times. 
+
+2. The company would like to reduce the lead time, but don’t know the best way. The logistics provider has said that they are able to offer daily pick up (Monday to Friday) for an additional cost. Alternatively the warehouse could hire more people in order to be able to handle all shipments as ‘Express’. Assuming the costs are equivalent, use the simulation model to determine which option would lead to better improvement in the 95% delivery promise.
 
 
 #### Technical Hints:
-Google sheets can be downloaded as excel files.
+Google sheets can be downloaded as excel files or csv files.
 Pandas has a read_xls() method that can be used for reading excel files.
 To use this an additional package called openpyxl must be installed using conda.
 
