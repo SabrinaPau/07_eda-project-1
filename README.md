@@ -11,6 +11,7 @@ You can find the detailed task description [here](Assignment.md).
 ## Getting Started
 
 - Please create a new repository on GitHub and invite all team members to collaborate.
+  - Include a .gitignore file to your repo. Here f.e. your data folder should be listed, since you want to make sure not to push any data to GitHub.
 - Create a new virtual environment using:  
 
 ```BASH 
@@ -22,7 +23,7 @@ $ conda activate <env_name>
 $ conda install <package_name>
 ```
 - Activate your environment 
-- Also after having created this environment, you can install additional packages within it. **Therefore you need to have activated your environment**!
+- Also after having created this environment, you can install additional packages within it. **Make sure you have activated your environment before installing new packages within it**!
 - Start VS Code and start with your EDA!
 - Work in branches and push your changes to the repository in order to keep your notebooks syncronised.
 
