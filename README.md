@@ -10,7 +10,7 @@ You can find the detailed task description [here](Assignment.md).
 
 ## Getting Started
 
-- Please create a new repository on GitHub. 
+- Please create a new repository on GitHub and invite all team members to collaborate.
 - Create a new virtual environment using:  
 
 ```BASH 
@@ -24,13 +24,14 @@ $ conda install <package_name>
 - Activate your environment 
 - Also after having created this environment, you can install additional packages within it. **Therefore you need to have activated your environment**!
 - Start VS Code and start with your EDA!
+- Work in branches and push your changes to the repository in order to keep your notebooks syncronised.
 
 ## Suggested workflow - POC
 The work is timeboxed, and with that in mind, you need to change how you approach the task. You will want to employ an iterative approach. 
 
 * Write rough draft of plan with placeholders
 * Do simple plots
-* Main questions should already be answered -> POC (proof of concept) 
+* Main questions should be answered first -> POC (proof of concept) 
 * Iterate: go deeper, go prettier, go better
 * Clean up .. feel free to delete things that are not useful anymore
  
