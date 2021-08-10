@@ -3,8 +3,8 @@
 
 Objective: Business Understanding and extracting information from customer briefing  
 Technical: Combine multiple data sources, perform Exploratory Data Analysis   
-Mathematical: Calculate descriptive statistics
-Data: 
+Mathematical: Calculate descriptive statistics  
+Data: https://docs.google.com/spreadsheets/d/1IEs8t4prG9krTfZu61eb3C3hCj5LPI5fqdaHpWNOJWs/
 
 A Muesli distribution company has approached you to help them understand their delivery process. They want to develop KPIs to help them keep track of the health of their business in order to improve the service they offer their customers.
 
