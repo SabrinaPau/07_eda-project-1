@@ -30,8 +30,7 @@ The logistics company has said they have on average 3 day delivery times to all 
 4. Load the provided data into pandas and perform simple EDA to describe what data exists including descriptive statistics, identify missing values and any outliers.
 
 Google sheets can be downloaded as excel files or csv files.
-Pandas has a *read_xls()* method that can be used for reading excel files.
-To use this an additional package called openpyxl must be installed using conda.
+Pandas has a *read_excel()* method that can be used for reading excel files.
 Alternatively there are packages that allow python to read directly from google sheets, feel free to explore these.  
 
 5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and the capture any logic needed to handle weekends or processing modes etc. Either create one big dataframe with everything or a dataframe for each element, either way by joining the provided tables.
