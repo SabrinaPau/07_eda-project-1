@@ -23,7 +23,7 @@ The logistics company has said they have on average 3 day delivery times to all 
 
 ### Tasks:   
 #### Understand Business Problem and Potential Solution
-1. Map out the order process in a flow chart.
+1. Map out the order process in a flow chart. 
 2. Invent some KPIs that would be useful for tracking the performance processes overall and at each stage.
 3. Label the flowchart with any logic that takes place that could affect how orders move through the stages. Include notes about assumptions the company and suppliers make about the processing time for each stage.  
 #### Explore Data
@@ -33,9 +33,9 @@ Google sheets can be downloaded as excel files or csv files.
 Pandas has a *read_excel()* method that can be used for reading excel files.
 Alternatively there are packages that allow python to read directly from google sheets, feel free to explore these.  
 
-5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and the capture any logic needed to handle weekends or processing modes etc. Either create one big dataframe with everything or a dataframe for each element, either way by joining the provided tables.
+5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and the capture any logic needed to handle weekends or processing modes etc. Create new dataframes by joining tables as necessary.
 #### Validate Solution
-6. Make further exploratory data analysis to understand the time taken in each step in the order process and the range of values for each KPI. Identify missing values or problematic data or outliers. Show how long a ‘normal’ order takes as well as how much variation exists for each stage. 
+6. Make further exploratory data analysis to understand the time taken in each step in the order process and the range of values for each KPI. Identify problematic data or outliers in the KPIs. Show how long an average order takes as well as how much variation exists for each stage. 
 7. Evaluate whether the data align with the explanations of the processes given by the company and identify any steps that have ‘concerning’ levels of reliability.
 #### Visualise and Communicate
 8. Use a Jupyter notebook to organise the text, code and visualisation that can be delivered to the customer.
@@ -44,9 +44,10 @@ Alternatively there are packages that allow python to read directly from google 
 #### EXTRA CREDIT  
 1. The company would like to know how long the an order would take to be delivered to the customer depending on what day it is received. They would like to know the average as well as 95th percentile of deliveries (i.e. the number of days under which 95% of orders will be delivered). Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available in order to create a set of simulated orders that can be measured to show the distribution of delivery times. 
 
-It is possible to randomly sample from a column of data, which allows us to create new datasets by combining different datasets.
+It is possible to randomly sample from a column of data ignoring missing values, which allows us to fill in those missing values using the distribution of non-missing data. The code for this is below:
 ```
-df_new["processing_time"] = df["processing_time"].apply(lambda x: np.random.choice(df["processing_time"].dropna().values) if np.isnan(x) else x)
+df_new["processing_time"] = 
+  df["processing_time"].apply(lambda x: np.random.choice(df["processing_time"].dropna().values) if np.isnan(x) else x)
 ```
 
 2. The company would like to reduce the lead time, but don’t know the best way. The logistics provider has said that they are able to offer daily pick up (Monday to Friday) for an additional cost. Alternatively the warehouse could hire more people in order to be able to handle all shipments as ‘Express’. Assuming the costs are equivalent, use the simulation model to determine which option would lead to better improvement in the 95% delivery promise.
