@@ -46,7 +46,8 @@ Alternatively there are packages that allow python to read directly from google 
 
 It is possible to randomly sample from a column of data ignoring missing values, which allows us to fill in those missing values using the distribution of non-missing data. The code for this is below:
 ```
-df_new["processing_time"] = df["processing_time"].apply(lambda x: np.random.choice(df["processing_time"].dropna().values) if np.isnan(x) else x)
+df_new["processing_time"] = 
+  df["processing_time"].apply(lambda x: np.random.choice(df["processing_time"].dropna().values) if np.isnan(x) else x)
 ```
 
 2. The company would like to reduce the lead time, but don’t know the best way. The logistics provider has said that they are able to offer daily pick up (Monday to Friday) for an additional cost. Alternatively the warehouse could hire more people in order to be able to handle all shipments as ‘Express’. Assuming the costs are equivalent, use the simulation model to determine which option would lead to better improvement in the 95% delivery promise.
