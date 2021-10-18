@@ -30,7 +30,7 @@ $ conda install <package_name>
 - When working seperately from teammates use different files that can be combined later, or work carefully to avoid merge conflicts!
 
 
-## Suggested workflow - POC
+## Suggested workflow - MVP
 The work is timeboxed, and with that in mind, you need to change how you approach the task. You will want to employ an iterative approach. 
 
 * Write a plan of how you will complete the project. Refer to this regularly.
