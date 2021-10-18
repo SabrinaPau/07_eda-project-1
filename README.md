@@ -11,7 +11,7 @@ You can find the detailed task description [here](Assignment.md).
 ## Getting Started
 
 - Please create a new repository on GitHub and invite all team members to collaborate.
-  - Include a .gitignore file to your repo. Here f.e. your data folder should be listed, since you want to make sure not to push any data to GitHub.
+  - Include a .gitignore file to your repo. At the least your data folder should be listed, since you want to make sure not to push any data to GitHub.
 - Start VS Code!
 - Create a new virtual environment using:  
 
