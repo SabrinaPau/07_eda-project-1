@@ -33,7 +33,7 @@ Google sheets can be downloaded as excel files or csv files.
 Pandas has a *read_excel()* method that can be used for reading excel files.
 Alternatively there are packages that allow python to read directly from google sheets, feel free to explore these.  
 
-5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and the capture any logic needed to handle weekends or processing modes etc. Create new dataframes by joining tables as necessary.
+5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and that capture any logic needed to handle weekends or processing modes etc. Create new dataframes by joining tables as necessary.
 #### Validate Solution
 6. Make further exploratory data analysis to understand the time taken in each step in the order process and the range of values for each KPI. Identify problematic data or outliers in the KPIs. Show how long an average order takes as well as how much variation exists for each stage. 
 7. Evaluate whether the data align with the explanations of the processes given by the company and identify any steps that have ‘concerning’ levels of reliability.
