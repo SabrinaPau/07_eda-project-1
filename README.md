@@ -23,7 +23,7 @@ $ conda activate <env_name>
 $ conda install <package_name>
 ```
 - Also after having created this environment, you can install additional packages within it. **Make sure you have activated your environment before installing new packages within it**!
-- Work in branches and push your changes to the repository in order to keep your notebooks syncronised.
+- Work in branches and push your changes to the repository in order to keep your notebooks synchronised.
 - Create a new .ipynb file and start with your EDA!
 - When working seperately from teammates use different files that can be combined later, or work carefully to avoid merge conflicts!
 
