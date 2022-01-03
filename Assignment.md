@@ -42,7 +42,7 @@ Alternatively there are packages that allow python to read directly from google 
 9. Present your *clean* notebook and method to the class.
   
 #### EXTRA CREDIT  
-1. The company would like to know how long the an order would take to be delivered to the customer depending on what day it is received. They would like to know the average as well as 95th percentile of deliveries (i.e. the number of days under which 95% of orders will be delivered). Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available in order to create a set of simulated orders that can be measured to show the distribution of delivery times. 
+1. The company would like to know how long an order would take to be delivered to the customer depending on what day it is received. They would like to know the average as well as 95th percentile of deliveries (i.e. the number of days under which 95% of orders will be delivered). Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available in order to create a set of simulated orders that can be measured to show the distribution of delivery times. 
 
 It is possible to randomly sample from a column of data ignoring missing values, which allows us to fill in those missing values using the distribution of non-missing data. The code for this is below:
 ```
