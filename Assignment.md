@@ -21,7 +21,9 @@ Customers can pay for Express Processing that means the orders leave on the truc
 
 The logistics company has said they have on average 3 day delivery times to all locations. They transport goods on weekends but only deliver to customers from their local distribution centers on weekdays. The Muesli company has some data about exact delivery dates for a number of shipments that was gathered via marketing promotions they ran where customers scanned a QR code on the package in order to register for a prize. (We assume customers always scanned the code on the day of arrival).
 
-### Tasks:   
+**Deliverable:** 10-15 minutes presentation to the class / stakeholder describing how the business is performing based on the KPIs developed. Include why these specific KPIs are important, what they show about the description of the business given by the employees and how you developed them technically from the data given.
+
+### Workflow:   
 #### Understand Business Problem and Potential Solution
 1. Map out the order process in a flow chart. 
 2. Invent some KPIs that would be useful for tracking the performance processes overall and at each stage.
@@ -39,7 +41,7 @@ Alternatively there are packages that allow python to read directly from google 
 7. Evaluate whether the data align with the explanations of the processes given by the company and identify any steps that have ‘concerning’ levels of reliability.
 #### Visualise and Communicate
 8. Use a Jupyter notebook to organise the text, code and visualisation that can be delivered to the customer.
-9. Present your *clean* notebook and method in a 10-15 minutes presentation to the class. Think of it as a **stakeholder presentation**!
+9. Present your output as slides. Talk about why you have done things, what your intentions were and how you technically developed the analysis by including screenshots of notebook code and output as necessary. Expectation is a 10-15 minutes presentation to the class. Think of it as a **stakeholder presentation** with technical elements.
   
 #### EXTRA CREDIT  
 1. The company would like to know how long an order would take to be delivered to the customer depending on what day it is received. They would like to know the average as well as 95th percentile of deliveries (i.e. the number of days under which 95% of orders will be delivered). Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available in order to create a set of simulated orders that can be measured to show the distribution of delivery times. 
