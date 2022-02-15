@@ -14,7 +14,7 @@ You can find the detailed task description [here](Assignment.md).
   - Include a .gitignore file to your repo. At the least your data folder should be listed, since you want to make sure not to push any data to GitHub.
 - Start VS Code!
 - Either use your nf_base environment or if you want to experiment with new packages:
-- Create a new virtual environment using:  
+  - Create a new virtual environment using:  
 ```BASH 
 # Create new environment
 $ conda create --name <env_name>
@@ -23,10 +23,10 @@ $ conda activate <env_name>
 # Installing packages 
 $ conda install <package_name>
 ```
-- Also after having created this environment, you can install additional packages within it. **Make sure you have activated your environment before installing new packages within it**!
-- Work in branches and push your changes to the repository in order to keep your notebooks synchronised.
-- Create a new .ipynb file and start with your EDA!
-- When working seperately from teammates use different files that can be combined later, or work carefully to avoid merge conflicts!
+  - Also after having created this environment, you can install additional packages within it. **Make sure you have activated your environment before installing new packages within it**!
+  - Work in branches and push your changes to the repository in order to keep your notebooks synchronised.
+  - Create a new .ipynb file and start with your EDA!
+  - When working seperately from teammates use different files that can be combined later, or work carefully to avoid merge conflicts!
 
 
 ## Suggested workflow - MVP
