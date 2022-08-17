@@ -14,7 +14,7 @@ You can find the detailed task description [here](Assignment.md).
   - Include a .gitignore file to your repo. At the least your data folder should be listed, since you want to make sure not to push any data to GitHub.
 - Start VS Code!
 - Either use your nf_base environment or if you want to experiment with new packages:
-  - Create a new virtual environment using:  
+  - Create a new virtual environment, eg.:  
 ```BASH 
 # Create new environment
 $ conda create --name <env_name> python=3.9
@@ -35,7 +35,7 @@ The work is timeboxed, and with that in mind, you need to change how you approac
 * Write a plan of how you will complete the project. Refer to this regularly.
 * When unsure or facing overly complex topics: make assumptions or simplifications that allow you to move on with your plan.
 * Make simple plots
-* Main questions should be answered first -> Think MVP (Minimal viable product) and POC (proof of concept) 
+* Main questions should be answered first -> Think MVP (minimum viable product) and POC (proof of concept) 
 * Iterate: go deeper, go prettier, go better
 * Clean up .. feel free to delete things that are not useful anymore (even if you spent loads of time on it!)
  
