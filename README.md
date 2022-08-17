@@ -17,7 +17,7 @@ You can find the detailed task description [here](Assignment.md).
   - Create a new virtual environment using:  
 ```BASH 
 # Create new environment
-$ conda create --name <env_name>
+$ conda create --name <env_name> python=3.9
 # Activate environment 
 $ conda activate <env_name>
 # Installing packages 
