@@ -4,7 +4,7 @@
 Objective: Business Understanding and extracting information from customer briefing  
 Technical: Combine multiple data sources, perform Exploratory Data Analysis   
 Mathematical: Calculate descriptive statistics  
-Data: [Google Drive EDA Project Folder](https://docs.google.com/spreadsheets/d/1oa-XEiDQYjgYqqub_WUhRmKuOqLY8JGkkErog6D8eew/edit?usp=sharing)
+Data: [Google Drive EDA Project Folder](https://docs.google.com/spreadsheets/d/1_6sxlw1N9Gm7C25tQcJs-tTgW_VpzALenNXhvS1-nIA/edit?usp=sharing)
 
 A Muesli distribution company has approached you to help them understand their delivery process. They want to develop KPIs to help them keep track of the health of their business in order to improve the service they offer their customers.
 
