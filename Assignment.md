@@ -4,7 +4,7 @@
 Objective: Business Understanding and extracting information from customer briefing  
 Technical: Combine multiple data sources, perform Exploratory Data Analysis   
 Mathematical: Calculate descriptive statistics  
-Data: In your [Google Drive EDA Project Folder](https://drive.google.com/drive/folders/1FC1K-fK0XDtzICEJdaJSIfas9vpgNHko)
+Data: In your Google Drive EDA Project Folder
 
 A Muesli distribution company has approached you to help them understand their delivery process. They want to develop KPIs to help them keep track of the health of their business in order to improve the service they offer their customers.
 
@@ -41,7 +41,7 @@ Alternatively there are packages that allow python to read directly from google 
 7. Evaluate whether the data align with the explanations of the processes given by the company and identify any steps that have ‘concerning’ levels of reliability.
 #### Visualise and Communicate
 8. Use a Jupyter notebook to organise the text, code and visualisation that can be delivered to the customer.
-9. Present your output as slides. Please create your slides in your [Google Drive EDA Project Folder](https://drive.google.com/drive/folders/1FC1K-fK0XDtzICEJdaJSIfas9vpgNHko). Talk about why you have done things, what your intentions were and how you technically developed the analysis by including screenshots of notebook code and output as necessary. Expectation is a 10-15 minutes presentation to the class. Think of it as a **stakeholder presentation** with technical elements.
+9. Present your output as slides. Please create your slides in your Google Drive EDA Project Folder. Talk about why you have done things, what your intentions were and how you technically developed the analysis by including screenshots of notebook code and output as necessary. Expectation is a 10-15 minutes presentation to the class. Think of it as a **stakeholder presentation** with technical elements.
   
 #### EXTRA CREDIT  
 1. The company would like to know how long an order would take to be delivered to the customer depending on what day it is received. They would like to know the average as well as 95th percentile of deliveries (i.e. the number of days under which 95% of orders will be delivered). Consider building a new dataset that is made up of ‘simulated’ data that is randomly selected from the partial datasets that are available in order to create a set of simulated orders that can be measured to show the distribution of delivery times. 
