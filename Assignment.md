@@ -26,7 +26,7 @@ The logistics company has said they have on average 3 day delivery times to all 
 ### Workflow:   
 #### Understand Business Problem and Potential Solution
 1. Map out the order process in a flow chart. 
-2. Invent some KPIs that would be useful for tracking the performance processes overall and at each stage.
+2. Invent some metrics that would be useful for tracking the performance processes overall and at each stage.
 3. Label the flowchart with any logic that takes place that could affect how orders move through the stages. Include notes about assumptions the company and suppliers make about the processing time for each stage.  
 #### Explore Data
 4. Load the provided data into pandas and perform simple EDA to describe what data exists including descriptive statistics, identify missing values and any outliers.
@@ -35,7 +35,7 @@ Google sheets can be downloaded as excel files or csv files.
 Pandas has a *`read_excel()`* method that can be used for reading excel files.
 Alternatively there are packages that allow python to read directly from google sheets, feel free to explore these.  
 
-5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions and measure the KPIs. Use Pandas to create new columns to represent the processing times from the flow chart and that capture any logic needed to handle weekends or processing modes etc. Create new dataframes by joining tables as necessary.
+5. Prepare your data for further analysis by combining and augmenting it in any way to generate the data needed to validate the assumptions. Use Pandas to create new columns to represent the processing times from the flow chart and that capture any logic needed to handle weekends or processing modes etc. Create new dataframes by joining tables as necessary.
 #### Validate Solution
 6. Make further exploratory data analysis to understand the time taken in each step in the order process and the range of values for each KPI. Identify problematic data or outliers in the KPIs. Show how long an average order takes as well as how much variation exists for each stage. 
 7. Evaluate whether the data align with the explanations of the processes given by the company and identify any steps that have ‘concerning’ levels of reliability.
