@@ -3,11 +3,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from functools import reduce
 
+# if the python_functions file is in another folder, use:
+##import sys
+##sys.path.append('../')  # Add the parent folder to the Python path
+##import python_functions as pf  # Import the functions sheet
+# Now you can use my_function() in your notebook
+
 # print column-names
-def print_column_names(dataframes):
+def print_column_names(dataframes=dataframes):
     for df in dataframes:
-    print(df.columns)
-    print('-' * 30)
+        print(df.columns)
+        print('-' * 30)
 
 # change column-names to lower case and snake case
 # 'dataframes' is a list of the dataframes
@@ -23,12 +29,11 @@ def columns_lower_snake_case(dataframes):
 # delete unneeded columns
 # 'dataframes' is a list of the dataframes
 # 'dropping' is a list of the column_names to drop
-def delete_columns(dataframes, dropping):
-    for df in dataframes:
-        df.drop(dropping, axis=1)   # axis=1 means columns_name
+def delete_columns(df, dropping):
+    df.drop(dropping, axis=1)   # axis=1 means columns_name
 
-        print(df.columns)
-        print('-' * 30)
+    print(df.columns)
+    print('-' * 30)
     return dataframes
 
 # drop the duplicates
@@ -50,10 +55,10 @@ def extract_weekday(df):
     return df
 
 # convert the date columns to datetime format
-# 'date_columns is a list of the date columns to convert to datetime format
-def datetime_format(df, date_columns):
+# 'date_columns is a list of the date columns; format: df.['column_name']
+def datetime_format(date_columns):
     for date_column in date_columns:
-        df.['date_column'] = pd.to_datetime(df.['date_column'])
+        date_column = pd.to_datetime(date_column)
     df.info()
     return df
 
