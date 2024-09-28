@@ -42,6 +42,6 @@ The work is timeboxed, and with that in mind, you need to change how you approac
 
 **Have fun and do not stress yourself too much!!!**
 
-[Final Presentation in PowerPoint](https://github.com/SabrinaPau/07_project-2_eda/blob/main/Presentation_EDA-Project.pptx)
+[Final Presentation in PowerPoint](https://github.com/SabrinaPau/07_project-2_eda/blob/main/Presentation_EDA-Project.pptx)  
 [Final Presentation as pdf](https://github.com/SabrinaPau/07_project-2_eda/blob/main/Presentation_EDA-Project.pdf)
 
