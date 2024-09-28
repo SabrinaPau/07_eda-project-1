@@ -131,5 +131,5 @@ dmypy.json
 # DS store (MacOS finder custom folder attributes)
 .DS_Store
 
-#data folder
-data/
+# #data folder
+# data/
